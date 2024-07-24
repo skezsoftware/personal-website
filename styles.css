@@ -1,0 +1,82 @@
+.bodyLanding {
+    background-image: url('assets/Add\ a\ heading.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tabBar {
+    position: fixed;
+}
+.tabBar li {
+    display: inline;
+    float: left;
+    font-size: 32px;
+    margin: 10px;
+}
+
+a {
+    color: white;
+}
+
+/* About me page */
+.aboutBody {
+    background-color: #73b1cc;
+    padding: 10px;
+}
+
+.boxHeader {
+    border: 5px dashed white;
+    width: 50%;
+    font-size: x-large;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 80px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.summary {
+    margin-top: 8%;
+}
+
+.summary h2 {
+    background-color: #be5628;
+    font-size: 34px;
+    color: white;
+    padding: 5px;
+    letter-spacing: 10px;
+}
+
+.summary p {
+    color: white; 
+    padding: 6px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.experiences p {
+    display: inline;
+    font-size: 24px;
+    margin: 10px;
+    float: left; 
+    color: white; 
+    padding: 6px;
+    letter-spacing: 3px;
+}
+
+.experiences h2 {
+    background-color: #be5628;
+    font-size: 34px;
+    color: white;
+    padding: 5px;
+    letter-spacing: 10px;
+}
+/* Portfolio */
+
+.portfolioBody {
+    background-color: #73b1cc;
+}
