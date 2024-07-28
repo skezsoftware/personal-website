@@ -1,82 +1,193 @@
-.bodyLanding {
-    background-image: url('assets/Add\ a\ heading.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+body {
+  background-color: #016e96;
+  z-index: -1;
 }
 
-.tabBar {
-    position: fixed;
+.bodyLanding {
+  background-image: url("assets/Add\ a\ heading.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
 }
-.tabBar li {
-    display: inline;
-    float: left;
-    font-size: 32px;
-    margin: 10px;
+
+@media screen and (max-width: 1100px) {
+  .bodyLanding {
+    background-image: url("assets/backgroundTablet.png");
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bodyLanding {
+    background-image: url("assets/iphoneWallpaper.png");
+  }
 }
 
 a {
-    color: white;
+  color: white;
+  font-size: 22px;
 }
+
 
 /* About me page */
+
+.boxesExperiences {
+  display: inline-block;
+  text-align: left;
+  text-wrap: wrap;
+  background-color: #1a1f38;
+  padding: 10px;
+  border-radius: 2%;
+}
+
+
+h3 {
+  font-size: 28px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.coderBox {
+  grid-column: span 2;
+}
+
+.athleticsBox {
+  grid-column: span 2;
+}
+
+.entrepreneurBox {
+  grid-column: span 2;
+}
+
+.salesBox {
+  grid-column: span 2;
+}
+
+.coachBox {
+  grid-column: span 2;
+} 
+
+.waiterBox {
+  grid-column: span 2;
+}
+
+.constructionBox {
+  grid-column: span 2;
+}
+
+.weddingBox {
+  grid-column: span 2;
+}
+
+.experiences {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.tableFlexlayout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .aboutBody {
-    background-color: #73b1cc;
-    padding: 10px;
+  background-color: #016e96;
+  padding: 10px;
 }
 
-.boxHeader {
-    border: 5px dashed white;
-    width: 50%;
-    font-size: x-large;
-    color: white;
-    letter-spacing: 1px;
-    line-height: 80px;
-    margin: auto;
-    margin-top: 10%;
-    padding: 10px;
-    text-align: center;
+.bigSquare {
+  display: flex;
+  border: 5px dashed white;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 80px;
+  text-align: left;
+  width: 50%;
+  height: 50%;
+  padding: 15px;
+  margin-bottom: 100px;
 }
 
-.summary {
-    margin-top: 8%;
+.aboutFrontpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
 }
 
-.summary h2 {
-    background-color: #be5628;
-    font-size: 34px;
-    color: white;
-    padding: 5px;
-    letter-spacing: 10px;
+
+
+h2 {
+  background-color: #fd6901;
+  display: block;
+  font-size: 34px;
+  color: white;
+  padding: 7px;
+  margin: 0;
+  letter-spacing: 10px;
+  border-radius: 2%;
+}
+
+.summary{
+  margin: 0;
 }
 
 .summary p {
-    color: white; 
-    padding: 6px;
-    letter-spacing: 3px;
-    font-size: 24px;
-    margin: 10px;
+  color: white;
+  padding: 10px;
+  letter-spacing: 3px;
+  font-size: 24px;
+  line-height: 1.75;
+  padding-right: 20%;
+}
+
+.content {
+ background-color: #016e96;
 }
 
 .experiences p {
-    display: inline;
-    font-size: 24px;
-    margin: 10px;
-    float: left; 
-    color: white; 
-    padding: 6px;
-    letter-spacing: 3px;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  padding: 5px;
 }
 
-.experiences h2 {
-    background-color: #be5628;
-    font-size: 34px;
-    color: white;
-    padding: 5px;
-    letter-spacing: 10px;
-}
+
 /* Portfolio */
 
 .portfolioBody {
-    background-color: #73b1cc;
+  background-color: #016e96;
+}
+
+/* Contact page */
+.contactPage {
+  margin: 20%;
+}
+
+.container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.dataNeeded {
+  width: auto;
+  font-size: 22px;
+}
+
+input {
+  width: 300px;
+  height: 25px;
+}
+
+label {
+  width: 300px;
+  height: 100px;
 }
